@@ -1,0 +1,2 @@
+neuron_count,trial_count,mean_reliability,median_reliability,mean_fit_r2,median_fit_r2,fraction_successful_fits,mean_tuning_sharpness,median_tuning_sharpness,mean_osi,median_osi,fraction_reliability_gt_0.5
+23589,4598,0.7298,0.7847,0.6881,0.7502,1.0,5.8632,3.8263,0.5906,0.6043,0.8537

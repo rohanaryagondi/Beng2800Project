@@ -1,0 +1,18 @@
+# Data files - too large for git
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.venv/
+
+# Claude instructions (not needed for report)
+stringer_orientation_project_setup_instructions.md
+stringer_orientation_project_continuation_instructions.md

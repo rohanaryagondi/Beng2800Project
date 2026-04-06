@@ -1,0 +1,7 @@
+file,type,shape,size_mb,keys_or_columns
+orientation_neuron_summary.parquet,parquet,"(23589, 15)",1.88,"neuron_id, recording_id, n_trials, mean_response, response_std, pref_orientation_deg_empirical, osi_empirical, split_half_reliability, fit_success, fit_r2, fit_baseline, fit_amplitude, fit_pref_orientation_deg, fit_kappa_or_width, fit_method"
+orientation_binned_tuning.npz,npz,"tuning_mean=(23589, 36), tuning_sem=(23589, 36), centers=(36,)",6.14,"tuning_mean, tuning_sem, angle_bin_centers_deg, neuron_ids"
+orientation_decoder_targets.npz,npz,"y_cos2=(4598,), y_sin2=(4598,)",0.07,"y_cos2, y_sin2, theta_deg, theta_rad"
+orientation_decoder_ready_top1000.npz,npz,"X=(4598, 1000), neuron_ids=(1000,)",9.43,"X, y_cos2, y_sin2, theta_deg, theta_rad, neuron_ids, recording_id"
+orientation_decoder_ready.npz,npz,"X=(4598, 23589), theta_deg=(4598,)",231.66,"X, theta_deg, theta_rad, neuron_ids, recording_id"
+orientation_project_metadata.json,json,n/a,0.001,"source_doi, source_url, osf_project, github_reference, selected_recording_ids, raw_files, processed_files, orientation_range_deg, orientation_mapping, n_trials, n_neurons, n_orientation_bins, angle_bin_width_deg, response_summary, random_seed"
