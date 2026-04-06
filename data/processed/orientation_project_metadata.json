@@ -1,0 +1,29 @@
+{
+  "source_doi": "10.1016/j.cell.2021.03.042",
+  "source_url": "https://osf.io/ny4ut/download",
+  "osf_project": "https://osf.io/hygbm/",
+  "github_reference": "https://github.com/MouseLand/stringer-et-al-2019",
+  "selected_recording_ids": [
+    "stringer2019_v1_mouse1"
+  ],
+  "raw_files": {
+    "stringer_orientations.npy": 936.83
+  },
+  "processed_files": {
+    "orientation_decoder_ready.npz": 231.66,
+    "orientation_neuron_summary.parquet": 0.72,
+    "orientation_neuron_summary.csv": 2.15,
+    "orientation_binned_tuning.npz": 6.14
+  },
+  "orientation_range_deg": [
+    0.0,
+    180.0
+  ],
+  "orientation_mapping": "istim % pi  (direction 0-2pi mapped to orientation 0-pi)",
+  "n_trials": 4598,
+  "n_neurons": 23589,
+  "n_orientation_bins": 36,
+  "angle_bin_width_deg": 5.0,
+  "response_summary": "Raw deconvolved calcium activity from dat['sresp'] (neurons x trials). Each trial value is a single scalar per neuron (already trial-summarized in the raw data). No additional response-window extraction needed.",
+  "random_seed": 42
+}

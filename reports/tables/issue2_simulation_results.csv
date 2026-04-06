@@ -1,0 +1,3 @@
+analysis,spearman_r,n_neurons,interpretation
+simulation_noise_independent,0.9062,5000,Expected correlation when noise is independent of kappa
+real_data,0.2392,23589,"Observed correlation — lower than expected, suggesting noise decorrelates kappa and reliability"

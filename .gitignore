@@ -1,5 +1,7 @@
-# Data files - too large for git
-data/
+# Raw data (too large for git)
+data/raw/
+data/processed/orientation_decoder_ready.npz
+data/processed/orientation_neuron_summary.csv
 
 # Python
 __pycache__/
