@@ -56,7 +56,7 @@ def fit_one_neuron(theta_rad, response, pref_init_rad):
     p0 = [b_init, a_init, kappa_init, pref_init_rad]
     bounds = (
         [-np.inf, 0.0,   0.0, -np.inf],
-        [ np.inf, np.inf, 20.0,  np.inf],
+        [ np.inf, np.inf, 50.0,  np.inf],
     )
 
     try:

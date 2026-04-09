@@ -1,7 +1,7 @@
 # Phase 5: Project Synthesis
 
 **Date:** 2026-03-31
-**Runtime:** 4.1s
+**Runtime:** 3.6s
 
 ## Final Figures Created
 
@@ -18,15 +18,15 @@
 There is **substantial heterogeneity** in both parameters:
 
 - **Preferred orientation** is distributed approximately uniformly across 0-180 deg, indicating no population-level orientation bias in this mouse V1 recording.
-- **Tuning sharpness (kappa)** varies widely, with a median of 3.83 and an IQR of [1.31, 8.23]. About 22% of neurons are broadly tuned (kappa < 1), while 20% are very sharply tuned (kappa >= 10).
-- The von Mises model fits most neurons well (median R-squared = 0.750), but fit quality itself is heterogeneous.
+- **Tuning sharpness (kappa)** varies widely, with a median of 3.83 and an IQR of [1.32, 8.23]. About 22% of neurons are broadly tuned (kappa < 1), while 20% are very sharply tuned (kappa >= 10).
+- The von Mises model fits most neurons well (median R-squared = 0.753), but fit quality itself is heterogeneous.
 
 ### 2. Are neurons with sharper tuning also more reliable across trials?
 
 **Yes, there is a positive but moderate association.** Neurons with higher kappa tend to have higher split-half reliability:
 
-- Spearman r = 0.239 (95% CI: [0.227, 0.252])
-- This relationship holds after controlling for mean response in the OLS model (beta_kappa = 0.0040, p = 0.00e+00)
+- Spearman r = 0.237 (95% CI: [0.224, 0.249])
+- This relationship holds after controlling for mean response in the OLS model (beta_kappa = 0.0008, p = 7.76e-08)
 - However, kappa and mean response together explain only ~5.5% of reliability variance, indicating that other factors (noise correlations, non-stationarity, etc.) dominate trial-to-trial variability.
 
 ### 3. How accurately can a simple population decoder predict stimulus orientation from neural activity?

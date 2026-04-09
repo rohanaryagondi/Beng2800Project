@@ -2,12 +2,12 @@ metric,value
 Total neurons,23589
 Total trials,4598
 Fit success rate,100.0%
-Median fit R-squared,0.750
+Median fit R-squared,0.753
 Median tuning sharpness (kappa),3.83
-Kappa IQR,"[1.31, 8.23]"
+Kappa IQR,"[1.32, 8.23]"
 Median split-half reliability,0.785
-Spearman r (kappa vs reliability),"0.239 [0.227, 0.252]"
-OLS beta_kappa (controlling for mean response),0.0040 (p=0.00e+00)
+Spearman r (kappa vs reliability),"0.237 [0.224, 0.249]"
+OLS beta_kappa (controlling for mean response),0.0008 (p=7.76e-08)
 Best decoder MAE (1000 neurons),2.80 deg
 Decoder MAE with 10 neurons,19.96 deg
 Shuffle control MAE,45.06 deg
